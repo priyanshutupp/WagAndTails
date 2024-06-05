@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, logoTemp, menu } from "../assets";
+import { close, menu } from "../assets";
 import { navLinks } from "../constants";
 import Button from "./SignUp";
 
@@ -9,8 +9,8 @@ const Navbar = () => {
   
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logoTemp} alt="wagandtails" className="w-[124px] h-[32px]" />
-
+      <h1 className={`font-poppins font-normal text-white text-[28px] mr-10`}>Wag and Tails</h1>
+      
       <ul className="list-none sm:flex hidden justify-start items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
