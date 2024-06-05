@@ -1,53 +1,41 @@
-import airbnb from "./airbnb.png";
-import bill from "./bill.png";
-import binance from "./binance.png";
-import card from "./card.png";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
+import dog2 from "./dog2.jpg";
+import dog3 from "./dog3.jpg";
+import cat1 from "./cat1.jpg";
+import cow1 from "./cow1.jpg";
 import logo from "./logo.svg";
-import quotes from "./quotes.svg";
+import logoTemp from "./logo_temp.png";
+import normalBg from "./normalBg.jpg";
 import dog1 from "./dog1.jpg";
-import send from "./Send.svg";
-import shield from "./Shield.svg";
-import star from "./Star.svg";
+import groom from "./Groom.svg";
+import bone from "./Bone.svg";
+import walk from "./Walk.svg";
+import home from "./Home.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import google from "./google.svg";
-import apple from "./apple.svg";
-import arrowUp from "./arrow-up.svg";
 import supportIcon from "./SupportIcon.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
 
 export {
-  airbnb,
-  bill,
-  binance,
-  card,
-  coinbase,
-  dropbox,
+  dog2,
+  dog3,
+  cat1,
+  cow1,
   logo,
-  quotes,
+  logoTemp,
+  normalBg,
   dog1,
-  send,
-  shield,
-  star,
+  bone,
+  groom,
+  walk,
+  home,
   menu,
   close,
-  google,
-  apple,
-  arrowUp,
   supportIcon,
   facebook,
   instagram,
   linkedin,
   twitter,
-  people01,
-  people02,
-  people03,
 };

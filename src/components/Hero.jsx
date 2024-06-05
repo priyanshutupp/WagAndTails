@@ -1,6 +1,5 @@
 import styles from "../style";
-import { supportIcon, dog1 } from "../assets";
-import GetStarted from "./GetStarted";
+import { supportIcon, dog1, dog3 } from "../assets";
 
 const Hero = () => {
   return (
@@ -20,7 +19,7 @@ const Hero = () => {
             <span className="text-gradient">Pet Care</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
-            <GetStarted />
+          <img class="testimonial-image dont-replace bottom-10 left-50 hidden h-40 w-40 rounded-full object-cover shadow-[0_0_25px_0_rgba(0,0,0,0.1)] ring-2 ring-white lg:block" src={dog3} alt="small image" oncontextmenu="return false;"/>
           </div>
         </div>
         
@@ -35,9 +34,9 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={dog1} alt="billing" 
-        className="high-res-image seo-image absolute -right-[32] -top-[32] hidden h-[650px] w-[650px] 
-        rounded-full rounded-tr-none object-cover object-right-top md:block" />
+        <img src={dog1} alt="dog1" 
+        className="high-res-image seo-image absolute -right-[32] hidden h-[750px] w-[750px] 
+        rounded-full rounded-tr-none object-cover object-right-top md:block mt-10" />
         
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
@@ -45,9 +44,8 @@ const Hero = () => {
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
         {/* gradient end */}
       </div>
-
+      
       <div className={`ss:hidden ${styles.flexCenter}`}>
-        <GetStarted />
       </div>
     </section>
   );

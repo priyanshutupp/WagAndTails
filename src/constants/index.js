@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { facebook, instagram, linkedin, twitter, bone, groom, walk, home  } from "../assets";
 
 export const navLinks = [
   {
@@ -6,85 +6,47 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "services",
+    title: "Services",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "aboutUs",
+    title: "AboutUs",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "help",
+    title: "Help",
   },
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: home,
+    title: "Pet Sitting",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Our professional pet sitters ensure your pet stays comfortable and cared for while you're away.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: walk,
+    title: "Dog Walking",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Experienced walkers to keep your dog healthy and happy with daily exercise routines.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: groom,
+    title: "Pet Grooming",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "High-quality grooming services to keep your pets looking and feeling great.",
   },
-];
-
-export const feedback = [
   {
-    id: "feedback-1",
+    id: "feature-4",
+    icon: bone,
+    title: "Pet Food",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
-];
-
-export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+      "A vast marketplace featuring genuine and nutritious pet food for all types of pets and farm animals.",
   },
 ];
 
@@ -93,24 +55,20 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Products",
+        link: "https://www.wagandtails.com/products/",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "https://www.wagandtails.com/how-it-works/",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "https://www.wagandtails.com/explore/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "https://www.wagandtails.com/terms-and-services/",
       },
     ],
   },
@@ -119,23 +77,19 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "https://www.wagandtails.com/help-center/",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "https://www.wagandtails.com/suggestions/",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "https://www.wagandtails.com/blog/",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "https://www.wagandtails.com/newsletters/",
       },
     ],
   },
@@ -144,11 +98,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://www.wagandtails.com/our-partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://www.wagandtails.com/become-a-partner/",
       },
     ],
   },
@@ -168,30 +122,11 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://www.x.com/",
   },
   {
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
   },
 ];

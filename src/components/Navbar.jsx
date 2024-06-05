@@ -1,31 +1,26 @@
 import { useState } from "react";
 
-import { close, logo, menu } from "../assets";
+import { close, logoTemp, menu } from "../assets";
 import { navLinks } from "../constants";
 import Button from "./SignUp";
 
 const Navbar = () => {
-  const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
   
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="wagandtails" className="w-[124px] h-[32px]" />
+      <img src={logoTemp} alt="wagandtails" className="w-[124px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden justify-start items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 ${
-              active === nav.title ? "text-white" : "text-dimWhite"
-            }`}
-            onClick={() => setActive(nav.title)}
+            className={`font-poppins font-normal text-dimWhite hover:text-secondary cursor-pointer text-[16px] mr-10`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
       </ul>
-      
       <Button styles={`sm:flex hidden mr-10 z-[5]`} />
       
       <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -45,10 +40,8 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === nav.title ? "text-white" : "text-dimWhite"
-                } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-                onClick={() => setActive(nav.title)}
+                className={`font-poppins font-medium text-dimWhite hover:text-secondary cursor-pointer text-[16px] 
+                ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
