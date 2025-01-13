@@ -3,7 +3,7 @@ import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
   // Replace with your Firebase config
-  apiKey: "AIzaSyASM132iX69aCtxa14Ts8LH6YHUmAWKWy0",
+  apiKey: "Your-API-Key",
   authDomain: "wag-and-tails.firebaseapp.com",
   projectId: "wag-and-tails",
   storageBucket: "wag-and-tails.firebasestorage.app",
